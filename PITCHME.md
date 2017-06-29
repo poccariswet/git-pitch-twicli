@@ -45,13 +45,13 @@ $ go get github.com/gizak/termui
 
 
 **tweet.go**
+---?code=tweet.go
 
-?code=tweet.go
 ---
-<br>
 これでtweetするための準備ができました。
 早速、`go build` してtweetしてみましょう。<br>
-うまく、tweetができれば成功です！
+うまく、tweetができれば成功です！<br>
+次に進みましょう。
 
 ---
 
@@ -75,8 +75,9 @@ $ go get github.com/gizak/termui
 ---
 
 **user.go**
-
 ---?code=user.go
+
+---
 
 試しに `$ twicli user TigersDreamlink` を行うと<br><br>
 <!--<img src=user.png width=400px>-->
@@ -116,7 +117,6 @@ $ go get github.com/gizak/termui
 <br>
 ---
 **timeline.go**
-
 ---?code=timeline.go
 ---
 
@@ -159,7 +159,6 @@ $ go get github.com/gizak/termui
 ---
 
 **search.go**
-
 ---?code=search.go
 ---
 <br>
@@ -195,7 +194,6 @@ $ go get github.com/gizak/termui
 ```
 <br>
 ---
-
 **pictweet.go**
 
 ---?code=pictweet1.go
@@ -238,7 +236,6 @@ $ go get github.com/mattn/go-pipeline
 ---
 
 **getimage.go**
-
 ---?code=getimage.go
 
 ---

@@ -32,16 +32,23 @@ $ go get github.com/gizak/termui
 ---
 ## 早速ツイートしてみよう！
 
-#### main.go
+**main.go**
+(twitter key 取得方法は以下の記事を参考にしてください）
+- [Twitter Key](https://yonaminetakayuki.jp/twitter-api-key/)
+
+
 ---?code=main1.go
 
 ---
-#### tweet.go
+
+
+**tweet.go**
+
 ---?code=tweet.go
 <br>
 これでtweetするための準備ができました。
 早速、`go build` してtweetしてみましょう。<br>
-うまく、tweetができれば成功です！次に進みましょう。
+うまく、tweetができれば成功です！
 
 ---
 

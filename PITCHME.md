@@ -33,7 +33,8 @@ $ go get github.com/gizak/termui
 ## 早速ツイートしてみよう！
 
 **main.go**
-(twitter key 取得方法は以下の記事を参考にしてください）
+(twitter key 取得方法は以下の記事を参考にしてください）<br>
+
 - [Twitter Key](https://yonaminetakayuki.jp/twitter-api-key/)
 
 
@@ -58,7 +59,8 @@ $ go get github.com/gizak/termui
 
 ---
 
-#### main.go　に以下の文を追加
+**main.go　に以下の文を追加**
+
 ```sh
 {
 	Name:    "user",
@@ -70,7 +72,8 @@ $ go get github.com/gizak/termui
 <br>
 ---
 
-#### user.go
+**user.go**
+
 ---?code=user.go
 
 試しに `$ twicli user TigersDreamlink` を行うと<br><br>
@@ -96,7 +99,8 @@ $ go get github.com/gizak/termui
 
 ---
 
-#### main.go
+**main.go**
+<br>
 以下を`main.go`に追加します
 
 ```sh
@@ -109,7 +113,8 @@ $ go get github.com/gizak/termui
 ```
 <br>
 ---
-#### timeline.go
+**timeline.go**
+
 ---?code=timeline.go
 ---
 
@@ -136,7 +141,8 @@ $ go get github.com/gizak/termui
 次はこれを実装していきます! 
 ---
 
-#### main.go
+**main.go**
+ <br>
 以下を`main.go`に追加します
 
 ```sh
@@ -150,7 +156,8 @@ $ go get github.com/gizak/termui
 <br>
 ---
 
-#### search.go
+**search.go**
+
 ---?code=search.go
 ---
 <br>
@@ -172,6 +179,8 @@ $ go get github.com/gizak/termui
 
 <br>
 ---
+**main.go**
+<br>
 以下をいつも通り`main.go`に追加します
 
 ```sh
@@ -185,7 +194,7 @@ $ go get github.com/gizak/termui
 <br>
 ---
 
-#### pictweet.go
+**pictweet.go**
 
 ---?code=pictweet1.go
 
@@ -202,14 +211,16 @@ $ go get github.com/gizak/termui
 <br>
 ---
 
-####main.go
+**main.go**
+<br>
 `main.go`を以下のようにします
 
 ---?code=main.go
 
 ---
 
-####pictweet.go
+**pictweet.go**
+<br>
 `pictweet.go`も同様に変更していきます<br>
 
 ---?code=pictweet.go
@@ -224,7 +235,7 @@ $ go get github.com/mattn/go-pipeline
 ```
 ---
 
-####getimage.go
+**getimage.go**
 
 ---?code=getimage.go
 
@@ -240,10 +251,3 @@ $ go get github.com/mattn/go-pipeline
 <br>
 golang... **楽しい**<br>
 もう... 最高です!!!
-
-
-
-<!-- $ export CON_KEY_TW="Your-Twitter-Consumer-Key"
-$ export CON_SECRET_KEY_TW="Your-Twitter-Consumer-Secret-Key"
-$ export ACC_KEY_TW="Your-Twitter-Access-Token"
-$ export ACC_SECRET_KEY_TW="Your-Twitter-Access-Token-Secret" -->

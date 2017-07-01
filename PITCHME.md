@@ -74,7 +74,9 @@ $ go get github.com/gizak/termui
 <br>
 ---
 
-**user.go**
+**user.go**<br>
+- [termui](https://github.com/gizak/termui)
+
 ---?code=user.go
 
 ---
@@ -206,7 +208,9 @@ $ go get github.com/gizak/termui
 ---
 
 ##次にファジーサーチ機能をつけて画像を取得しツイートしよう👍
-まず、画像を保存しておくためのディレクトリを作成し、そこに画像を保存し、そこから取得しツイートできるようにします。
+まず、画像を保存しておくためのディレクトリを作成し、そこに画像を保存し、そこから取得しツイートできるようにします。<br>
+
+- [fzf](https://github.com/junegunn/fzf)
 
 <br>
 ---
